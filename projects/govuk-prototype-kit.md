@@ -5,7 +5,6 @@ title: Joe Lanman - GOV.UK Prototype Kit
 
 Joe Lanman
 
-
 <div class="home-link">
   <a href="/">
     Home
@@ -14,7 +13,7 @@ Joe Lanman
 
 # GOV.UK Prototype Kit
 
-<img src="/assets/images/govuk-prototype-kit-tutorial.png" alt="">
+<img src="/assets/images/govuk-prototype-kit-tutorial.png" alt="Screenshot. Build a basic prototype using the Prototype Kit. This tutorial shows you how to prototype a fictional 'Apply for a juggling licence' service that will: ask 2 questions, show the user's answers for them to check, show a confirmation page. It will take about an hour to finish this tutorial, after you install the Prototype Kit. Our prototype will look a bit like this: flow diagram of 5 pages">
 
 The GOV.UK Prototype Kit is a unique prototyping tool that lets teams create and test designs quickly. It produces real web pages, meaning you can get a feel for and test realistically in the browser. It is responsive - meaning designs adapt mobile or desktop screens.
 
