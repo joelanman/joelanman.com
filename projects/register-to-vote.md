@@ -35,5 +35,6 @@ My work included:
 
 ## Links
 
-  - [Register to vote on GOV.UK](https://gov.uk/register-to-vote)
-  - [Things we learnt designing Register to vote](https://designnotes.blog.gov.uk/2014/07/14/things-we-learnt-designing-register-to-vote/)
+  - [GOV.UK - Register to vote](https://gov.uk/register-to-vote)
+  - [Blog post - Things we learnt designing Register to vote](https://designnotes.blog.gov.uk/2014/07/14/things-we-learnt-designing-register-to-vote/)
+  - [Blog post - Asking for a date of birth](https://designnotes.blog.gov.uk/2013/12/05/asking-for-a-date-of-birth/)
