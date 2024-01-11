@@ -9,7 +9,7 @@ title: Joe Lanman - Designer
 
   I’m a design consultant based in London.
 
-  I’ve been helping to create digital products and services based on user needs and behaviours since 2003. Most recently Design Lead at the UK Government Digital Service.
+  I’ve been helping to create digital products and services based on user needs and behaviours since 2003. Most recently as Design Lead at the UK Government Digital Service.
 
   My passion is creating simple, accessible services that improve people’s lives.
 
