@@ -20,7 +20,7 @@ The GOV.UK Prototype Kit is a unique prototyping tool that lets teams create and
 
 Crucially this includes being able to test with accessibility tech such as screen readers to ensure from the start that designs work for disabled people.
 
-It is widely used by teams across government and beyond, and is a key part of the [UK Government Digital Service Platform](https://platforms.service.gov.uk)
+It is widely used by teams across government and beyond, and is a key part of the [GOV.UK Digital Service Platform](https://platforms.service.gov.uk)
 
 ## My role
 
