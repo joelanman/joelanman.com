@@ -54,6 +54,11 @@ li {
   margin-bottom: 0.5rem;
 }
 
+img {
+  max-width: 100%;
+  border: 4px solid #EEEEEE;
+}
+
 .home-link {
   margin-bottom: 20px;
 }
