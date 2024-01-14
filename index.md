@@ -46,9 +46,9 @@ title: Joe Lanman - Designer
 
   Design lead in a multidisciplinary team on
   
-  - [GOV.UK Prototype Kit](/projects/govuk-prototype-kit)
-  - [GovWifi](/projects/govwifi)
-  - [Register to vote](/projects/register-to-vote)
+  - [GOV.UK Prototype Kit](/projects/govuk-prototype-kit/)
+  - [GovWifi](/projects/govwifi/)
+  - [Register to vote](/projects/register-to-vote/)
   - [Petition Parliament](https://petition.parliament.uk)
 
 </section>
