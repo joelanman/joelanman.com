@@ -1,6 +1,6 @@
 ---
 layout: main.njk
-title: Joe Lanman - GovWifi
+title: Joe Lanman - Register to vote
 ---
 
 Joe Lanman
