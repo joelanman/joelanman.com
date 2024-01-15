@@ -49,7 +49,7 @@ title: Joe Lanman - Designer
   - [GOV.UK Prototype Kit](/projects/govuk-prototype-kit/)
   - [GovWifi](/projects/govwifi/)
   - [Register to vote](/projects/register-to-vote/)
-  - [Petition Parliament](https://petition.parliament.uk)
+  - [Petition Parliament](/projects/petition-parliament/)
 
 </section>
 
