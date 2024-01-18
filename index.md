@@ -48,6 +48,7 @@ title: Joe Lanman - Designer
   
   - [GOV.UK Prototype Kit](/projects/govuk-prototype-kit/)
   - [GovWifi](/projects/govwifi/)
+  - [Coronavirus Extremely Vulnerable People Service](/projects/coronavirus-extremely-vulnerable-people/)
   - [Register to vote](/projects/register-to-vote/)
   - [Petition Parliament](/projects/petition-parliament/)
 
