@@ -67,7 +67,7 @@ title: Joe Lanman - Designer
   Blog posts
 
   - [Things We Learnt Designing Register to Vote](https://designnotes.blog.gov.uk/2014/07/14/things-we-learnt-designing-register-to-vote/)
-  - [‘Make sure this is right’ – a new email confirmation pattern](https://designnotes.blog.gov.uk/2015/09/15/make-sure-this-is-right-a-new-email-confirmation-pattern/)
+  - [A new email confirmation pattern](https://designnotes.blog.gov.uk/2015/09/15/make-sure-this-is-right-a-new-email-confirmation-pattern/)
   - [Asking for a Date of Birth](https://designnotes.blog.gov.uk/2013/12/05/asking-for-a-date-of-birth/)
   - [Helping Users Understand GOV.UK Verify](https://designnotes.blog.gov.uk/2015/09/21/helping-users-understand-gov-uk-verify-designing-with-data/)
   - [GOV.UK Verify and the Government Design Standards](https://identityassurance.blog.gov.uk/2016/03/31/gov-uk-verify-and-the-government-design-standards/)

@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - Petition Parliament
 ---
 
-Joe Lanman
+Joe Lanman - designer
 
 <div class="home-link">
 

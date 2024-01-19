@@ -3,19 +3,19 @@ layout: main.njk
 title: Joe Lanman - GOV.UK Prototype Kit
 ---
 
-Joe Lanman
+Joe Lanman - designer
 
 <div class="home-link">
-  <a href="/">
-    Home
-  </a>
+  
+    [Home](/)
+  
 </div>
 
 # GOV.UK Prototype Kit
 
 <img src="/assets/images/govuk-prototype-kit-tutorial.png" alt="Screenshot. Build a basic prototype using the Prototype Kit. This tutorial shows you how to prototype a fictional 'Apply for a juggling licence' service that will: ask 2 questions, show the user's answers for them to check, show a confirmation page. It will take about an hour to finish this tutorial, after you install the Prototype Kit. Our prototype will look a bit like this: flow diagram of 5 pages">
 
-The GOV.UK Prototype Kit is a unique prototyping tool that lets teams create and test designs quickly. It produces real web pages, meaning you can get a feel for and test realistically in the browser. It is responsive - meaning designs adapt mobile or desktop screens.
+The GOV.UK Prototype Kit is a unique prototyping tool that lets teams create and test designs quickly. It produces real web pages, meaning you can get a feel for and test realistically in the browser. It is responsive - meaning designs adapt to mobile or desktop screens.
 
 Crucially this means being able to test with accessibility tools such as screen readers to ensure from the start that designs work for disabled people. This is not possible in the majority of design tools.
 
@@ -35,4 +35,10 @@ Some examples of my work on the kit (in collaboration with my colleagues):
 
  - Another important point we learnt from research was prototyping in code is a new concept to many and can be daunting. So I led training sessions, both in-person and online, and wrote up an online tutorial users could follow at their own pace.
 
-[GOV.UK Prototype Kit site](https://prototype-kit.service.gov.uk)
+
+## Links
+
+ - [GOV.UK Prototype Kit site](https://prototype-kit.service.gov.uk)
+ - [An introduction to the GOV.UK Prototype Kit (Video)](https://www.youtube.com/watch?v=PuxojwJ2OEE)
+ - [Launch of the new GOV.UK Prototype Kit](https://gds.blog.gov.uk/2023/02/14/launch-of-the-new-gov-uk-prototype-kit/)
+ - [What do first-time users think of the GOV.UK Prototype Kit?](https://gds.blog.gov.uk/2023/07/18/what-do-first-time-users-think-of-the-gov-uk-prototype-kit/)

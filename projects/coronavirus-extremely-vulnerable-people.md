@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - Coronavirus Extremely Vulnerable People
 ---
 
-Joe Lanman
+Joe Lanman - designer
 
 <div class="home-link">
 
@@ -33,9 +33,9 @@ I joined the team just after the first version of the site had gone live.
 
 As part of a multidisciplinary team, I led the service and interaction design. Some examples of my work includes:
 
- - Mapping out both the data flow and user journeys. The service had been spun up very quickly and involved many departments and the NHS. My maps were really useful in meetings to make sure everyone had a common and accurate understanding of the service. From research and feedback, I added all the problems we knew of to the map, so we could work on and resolve them.
+ - Mapping out both the data flow and user journeys. The service had been spun up very quickly and involved many departments, the NHS and supermarkets. My maps were really useful in meetings to make sure everyone had an accurate, shared understanding of the service. From research and feedback, I added all the problems we knew of to the map, so we could work on and resolve them.
 
- - Redesigning key points in the service in order to help everyone who needed it. For example an early version required a letter from your doctor. We knew from research that there were various reasons why a vulnerable person may not have that letter. They should still be able to apply - we would still match their data against NHS records in order to check if they were eligible.
+ - Redesigning key points in the service in order to help everyone who needed it. For example an early version required a letter from your doctor. We knew from research that there were various reasons why a vulnerable person may not have that letter. They should still be able to apply - we would match their data against NHS records in order to check their eligibility.
 
  - Helping to resolve the question of whether and how to introduce a sign-in/account system for the service. Accounts can be helpful, but there are downsides including the complication of usernames and passwords, and the risk of the wrong people potentially being able to see sensitive data. We decided to add an account as an optional step, so it wouldnt be a blocker, and worked closely with NHS Login to integrate it in the best way.
 
