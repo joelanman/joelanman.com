@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #fff7f3;
 }
 
 *, *:before, *:after {
@@ -66,7 +67,7 @@ li {
 
 img {
   max-width: 100%;
-  border: 6px solid #EEEEEE;
+  border: 6px solid #ede5e1;
 }
 
 .home-link {

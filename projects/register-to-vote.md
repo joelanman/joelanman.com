@@ -31,7 +31,7 @@ My work included:
 
  - Using a mobile-first design, pioneering a 'one thing per page' approach. Initially we were going to combine more pages on desktop, but through research we found that 'one thing per page' worked well for everyone. It keeps each screen simple and easy to deal with.
 
- - Designing patterns that would later go into the GOV.UK Design System, such as how to ask for a date of birth, error validation and Check your answers.
+ - Designing many of the patterns that would later go into the GOV.UK Design System, such as how to ask for a date of birth, error validation and Check your answers.
 
  - Prototyping in code, meaning we could test in real browsers both on mobile and desktop, and test with disabled people using assistive tech such as screen readers and screen magnifiers.
 
