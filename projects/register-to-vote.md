@@ -13,7 +13,7 @@ Joe Lanman - designer
 
 # Register to vote
 
-<img width="2368" height="1308" src="/assets/images/register-to-vote.png" alt="Screenshot. Where do you live? Radios: England, Scotland, Wales, Northern Ireland or British citizen living in another country including the Channel Islands or Isle of Man. Button Continue">
+<img width="2368" height="1308" src="/assets/images/register-to-vote.webp" alt="Screenshot. Where do you live? Radios: England, Scotland, Wales, Northern Ireland or British citizen living in another country including the Channel Islands or Isle of Man. Button Continue">
 
 In 2013 the UK Government Digital Service had moved government information from many different sites to one: GOV.UK. It won [Design of the Year](https://www.gov.uk/government/news/govuk-wins-design-of-the-year-2013).
 

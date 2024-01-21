@@ -13,7 +13,7 @@ Joe Lanman - designer
 
 # Coronavirus Extremely Vulnerable People
 
-<img width="1704" height="760" src="/assets/images/coronavirus-extremely-vulnerable-people.png" alt="Part of a service map. Shows a journey starting with the NHS sending letters to vulnerale people, then people coming to the GDS web service, where they are asked if they are eligible, at which makes the journey branch.">
+<img width="1704" height="760" src="/assets/images/coronavirus-extremely-vulnerable-people.webp" alt="Part of a service map. Shows a journey starting with the NHS sending letters to vulnerale people, then people coming to the GDS web service, where they are asked if they are eligible, at which makes the journey branch.">
 
 _Please note this was a sensitive service, I may be able to share more detail directly._
 

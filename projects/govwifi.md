@@ -13,7 +13,7 @@ Joe Lanman - designer
 
 # GovWifi
 
-<img width="2352" height="1524" src="/assets/images/govwifi-home.png" alt="Screenshot. Public sector guest wifi. GovWifi is a wifi authentication service allowing staff and visitors to use a single username and password to connect to guest wifi across the public sector. Links for Connect a device, Offer GovWifi and Manage Govwifi.">
+<img width="2352" height="1524" src="/assets/images/govwifi-home.webp" alt="Screenshot. Public sector guest wifi. GovWifi is a wifi authentication service allowing staff and visitors to use a single username and password to connect to guest wifi across the public sector. Links for Connect a device, Offer GovWifi and Manage Govwifi.">
 
 Collaboration is key when teams are working on services. When we did research into some of the problems with working together in government, near the top of the list was wifi. When people visited other buildings, or started a new role, it could be difficult or impossible to just get on the internet.
 
