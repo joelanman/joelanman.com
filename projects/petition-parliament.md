@@ -13,7 +13,7 @@ Joe Lanman - designer
 
 # Petition Parliament
 
-<img src="/assets/images/petition-parliament-home.png" alt="Screenshot. Petitions – UK Government and Parliament. 928 petitions got a response from the Government. 188 petitions were debated in the House of Commons. Search petitions. View all open petitions. Popular petitions. Hold a parliamentary vote on assisted dying. 132 signatures in the last hour. Don’t increase the income requirement for family visas to £38,700. 53 signatures in the last hour">
+<img width="1774" height="1286" src="/assets/images/petition-parliament-home.png" alt="Screenshot. Petitions – UK Government and Parliament. 928 petitions got a response from the Government. 188 petitions were debated in the House of Commons. Search petitions. View all open petitions. Popular petitions. Hold a parliamentary vote on assisted dying. 132 signatures in the last hour. Don’t increase the income requirement for family visas to £38,700. 53 signatures in the last hour">
 
 UK Parliament's old 'e-Petitions' site was tired, hard to find and crucially not mobile-friendly. In a world of social media and smartphones, competitors like Change.org were far more popular. This was a shame because e-Petitions were officially monitored and could be discussed in Parliament if they were successful.
 

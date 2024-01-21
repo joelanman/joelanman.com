@@ -67,6 +67,7 @@ li {
 
 img {
   max-width: 100%;
+  height: auto;
   border: 6px solid #ede5e1;
 }
 
