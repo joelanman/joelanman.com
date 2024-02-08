@@ -17,7 +17,7 @@ Joe Lanman - designer
 
 _Please note this was a sensitive service, I may be able to share more detail directly._
 
-In 2019 the UK entered its first Coronavirus lockdown. It was a scary and distressing time - many people were dying and many more seriously ill.
+In 2020 the UK entered its first Coronavirus lockdown. It was a scary and distressing time - many people were dying and many more seriously ill.
 
 In this uncertain context and with a sudden switch to all-remote working, the civil service rapidly developed services to try and help.
 
@@ -31,7 +31,7 @@ During this time the service provided more than 4.2 million deliveries of essent
 
 I joined the team just after the first version of the site had gone live.
 
-As part of a multidisciplinary team, I led the service and interaction design. Some examples of my work includes:
+As part of a multidisciplinary team, I led the service and interaction design. Some examples of my work include:
 
  - Mapping out both the data flow and user journeys. The service had been spun up very quickly and involved many departments, the NHS and supermarkets. My maps were really useful in meetings to make sure everyone had an accurate, shared understanding of the service. From research and feedback, I added all the problems we knew of to the map, so we could work on and resolve them.
 
