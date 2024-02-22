@@ -79,6 +79,16 @@ img {
   margin-top: 40px;
 }
 
+pre {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f8f0ec;
+}
+
+code {
+  background-color: #f8f0ec;
+}
 
 @media (min-width: 800px) {
   body {
