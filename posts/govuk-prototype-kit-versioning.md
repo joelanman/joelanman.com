@@ -27,6 +27,7 @@ Here is one approach to versioning:
 {% extends "layouts/main.html" %}
 
 {% set bodyClasses = "v2" %}
+{% set version = "v2" %}
 {% endraw %}
 ```
 
@@ -39,7 +40,7 @@ Here is one approach to versioning:
 
 {% block content %}
 
-    <p>This is a page in version 2</p>
+    <p>This is a page in version: {{ version }}</p>
 
 {% endblock %}
 {% endraw %}
