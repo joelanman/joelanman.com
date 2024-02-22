@@ -22,20 +22,22 @@ Here is one approach to versioning:
 ## Views
 
 1. In `app/views/layouts` folder create a layout file, for example `v2.html`:
-```
+
 {% raw %}
+```
 {% extends "layouts/main.html" %}
 
 {% set bodyClasses = "v2" %}
 {% set version = "v2" %}
-{% endraw %}
 ```
+{% endraw %}
 
 2. In `app/views` folder create a version folder, for example `v2`
 
 3. Create a page in that folder, for example `test.html`:
-```
+
 {% raw %}
+```
 {% extends "layouts/v2.html" %}
 
 {% block content %}
@@ -43,14 +45,15 @@ Here is one approach to versioning:
     <p>This is a page in version: {{ version }}</p>
 
 {% endblock %}
-{% endraw %}
 ```
+{% endraw %}
 
 You can now visit the page `localhost:3000/v2/test` in your browser.
 
 ## Styles
 
 1. In `app/assets/sass` create a `v2.scss` file:
+
 ```
 .v2 {
     p {
@@ -72,6 +75,7 @@ The text in your test page should now be red.
 1. In `app` create a `routes` folder
 
 2. In `app/routes` create a `v2.js` file:
+
 ```
 const express = require('express')
 const router = express.Router()
@@ -81,7 +85,6 @@ router.get('/test2', function(request, response) {
 })
 
 module.exports = router
-
 ```
 
 Note that the path in the route is just `/test2` - you don't need to say `/v2/test2`. All the routes in this file will assume they are in the folder `v2`.
@@ -98,3 +101,10 @@ If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
  - You need to repeat these steps for each version, though it may be easier to copy and paste the existing version files and folders.
  - We've called our version `v2`, but you can call it anything. Use lower case and hyphens, for example `my-version`.
  - You can create pages from templates in your version folder, however those pages will use the base layout. Edit the `extends` line to use your version layout instead.
+ - In form `action`s and link `href`s, use the `{% raw %}{{ version }}{% endraw %}` variable. For example:
+
+ {% raw %}
+ ```
+ <a href="/{{ version }}/page-2">Page 2</a>
+ ```
+ {% endraw %}
