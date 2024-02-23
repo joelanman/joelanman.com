@@ -80,12 +80,23 @@ The text in your test page should now be red.
 const govukPrototypeKit = require('govuk-prototype-kit')
 const router = govukPrototypeKit.requests.setupRouter('/v2')
 
+const version = 'v2'
+
 router.get('/test2', function(request, response) {
     response.send('test2')
 })
 ```
 
 Note that the path in the route is just `/test2` - you don't need to say `/v2/test2`. All the routes in this file will assume they are in the folder `v2`.
+
+However, for `redirect` and `render` you do need to use the version, like this:
+
+```
+response.redirect('/' + version + '/my-page')
+```
+```
+response.render(version + '/my-page')
+```
 
 3. In `app/routes.js` add this line:
 ```
