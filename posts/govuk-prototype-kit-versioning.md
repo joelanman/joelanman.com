@@ -109,6 +109,7 @@ If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
 
  - You need to repeat these steps for each version, though it may be easier to copy and paste the existing version files and folders.
  - We've called our version `v2`, but you can call it anything. Use lower case and hyphens, for example `my-version`.
+ - It's helpful to have a link to each version from your home page
  - You can create pages from templates in your version folder, however those pages will use the base layout. Edit the `extends` line to use your version layout instead.
  - In form `action`s and link `href`s, use the `{% raw %}{{ version }}{% endraw %}` variable. For example:
 
