@@ -106,3 +106,5 @@ If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
  <a href="/{{ version }}/page-2">Page 2</a>
  ```
  {% endraw %}
+
+<div class="post-date">Last updated: 23/2/24</div>
