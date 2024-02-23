@@ -71,6 +71,7 @@ title: Joe Lanman - Designer
   - [Asking for a Date of Birth](https://designnotes.blog.gov.uk/2013/12/05/asking-for-a-date-of-birth/)
   - [Helping Users Understand GOV.UK Verify](https://designnotes.blog.gov.uk/2015/09/21/helping-users-understand-gov-uk-verify-designing-with-data/)
   - [GOV.UK Verify and the Government Design Standards](https://identityassurance.blog.gov.uk/2016/03/31/gov-uk-verify-and-the-government-design-standards/)
+  - [GOV.UK Prototype Kit - Versioning your prototype](/posts/govuk-prototype-kit-versioning)
 
 </section>
 
