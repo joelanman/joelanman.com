@@ -77,21 +77,19 @@ The text in your test page should now be red.
 2. In `app/routes` create a `v2.js` file:
 
 ```
-const express = require('express')
-const router = express.Router()
+const govukPrototypeKit = require('govuk-prototype-kit')
+const router = govukPrototypeKit.requests.setupRouter('/v2')
 
 router.get('/test2', function(request, response) {
     response.send('test2')
 })
-
-module.exports = router
 ```
 
 Note that the path in the route is just `/test2` - you don't need to say `/v2/test2`. All the routes in this file will assume they are in the folder `v2`.
 
 3. In `app/routes.js` add this line:
 ```
-router.use('/v2', require('./routes/v2.js'))
+require('./routes/v2.js')
 ```
 
 If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
