@@ -13,7 +13,7 @@ Joe Lanman - designer
 
 # Using the GOV.UK Prototype Kit with GitHub Codespaces
 
-The normal way to run the GOV.UK Prototype Kit is to use the command line. However there is another approach which might be easier, especially if you cannot install Node (for example if your employer has blocked it).
+The normal way to run the [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk) is to use the command line. However there is another approach which might be easier, especially if you cannot install Node (for example if your employer has blocked it).
 
 There are online services which let you edit and run code without installing anything on your computer. We will use GitHub Codespaces for this tutorial.
 
@@ -28,7 +28,7 @@ You should now see the **Create a new codespace** page.
 3. Make sure the **Region** is near you
 4. Click **Create codespace**
 
-You will see a new page containing the Visual Studio Code editor. Wait a while until it finishes processing, then
+You'll see a new page containing the Visual Studio Code editor. Wait for it to finish processing, then
 
 1. In the Terminal at the bottom, type `npm run dev`
 2. This should display a popup at the bottom, click **Open in Browser**
@@ -37,4 +37,4 @@ Your prototype should open in a new tab.
 
 If this is your first time using the GOV.UK Prototype Kit, try the [tutorial](https://prototype-kit.service.gov.uk/docs/make-first-prototype/start).
 
-<div class="post-date">Last updated: 28/3/24</div>
+<div class="post-date">Last updated: 29/3/24</div>
