@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - Register to vote
 ---
 
-Joe Lanman - designer
+Joe Lanman - Designer
 
 <div class="home-link">
 

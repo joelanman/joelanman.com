@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - GOV.UK Prototype Kit - Versioning your prototype
 ---
 
-Joe Lanman - designer
+Joe Lanman - Designer
 
 <div class="home-link">
 

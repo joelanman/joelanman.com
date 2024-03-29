@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - Using the GOV.UK Prototype Kit with GitHub Codespaces
 ---
 
-Joe Lanman - designer
+Joe Lanman - Designer
 
 <div class="home-link">
 

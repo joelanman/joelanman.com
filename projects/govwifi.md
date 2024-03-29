@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - GovWifi
 ---
 
-Joe Lanman - designer
+Joe Lanman - Designer
 
 <div class="home-link">
 

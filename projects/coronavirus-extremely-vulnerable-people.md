@@ -3,7 +3,7 @@ layout: main.njk
 title: Joe Lanman - Coronavirus Extremely Vulnerable People
 ---
 
-Joe Lanman - designer
+Joe Lanman - Designer
 
 <div class="home-link">
 
