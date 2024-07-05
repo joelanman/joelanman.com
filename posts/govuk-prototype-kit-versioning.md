@@ -52,7 +52,7 @@ You can now visit the page `localhost:3000/v2/test` in your browser.
 
 ## Styles
 
-1. In `app/assets/sass` create a `v2.scss` file:
+1. In `app/assets/sass` create a `_v2.scss` file:
 
 ```
 .v2 {
@@ -61,6 +61,8 @@ You can now visit the page `localhost:3000/v2/test` in your browser.
     }
 }
 ```
+
+Note - the underscore in the filename is important - it means this file is to be imported by another sass file, not compiled to css on its own.
 
 2. In `app/assets/application.scss` add this to the top of the file:
 
@@ -119,4 +121,4 @@ If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
  ```
  {% endraw %}
 
-<div class="post-date">Last updated: 23/2/24</div>
+<div class="post-date">Last updated: 5/7/24</div>
