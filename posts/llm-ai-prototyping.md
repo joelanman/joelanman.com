@@ -127,4 +127,8 @@ It definitely still makes mistakes, and is as unreliable as any LLM tool - somet
 
 In future I’d like to make it easier to run locally with a choice of LLM, and to add more components, for example from department design systems like [HMRC](https://design.tax.service.gov.uk/hmrc-design-patterns/), or from the [NHS](https://service-manual.nhs.uk/design-system).
 
+If you're interested in design and LLMs, try my friend Tim Paul's article on his similar experiment: [Generating forms from PDFs](https://www.timpaul.co.uk/posts/using-ai-to-generate-web-forms-from-pdfs/)
+
 Thanks to Rebecca Cottrell for reviewing this post.
+
+<div class="post-date">Last updated: 19/5/25</div>
