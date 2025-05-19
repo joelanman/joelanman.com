@@ -29,6 +29,14 @@ title: Joe Lanman - Designer
       </a>
     </dd>
     <dt>
+      Bluesky
+    </dt>
+    <dd>
+      <a href="https://bsky.app/profile/joelanman.bsky.social">
+        joelanman
+      </a>
+    </dd>
+    <dt>
       Mastodon
     </dt>
     <dd>
@@ -73,6 +81,7 @@ title: Joe Lanman - Designer
   - [GOV.UK Verify and the Government Design Standards](https://identityassurance.blog.gov.uk/2016/03/31/gov-uk-verify-and-the-government-design-standards/)
   - [GOV.UK Prototype Kit - Versioning your prototype](/posts/govuk-prototype-kit-versioning)
   - [Using the GOV.UK Prototype Kit with GitHub Codespaces](/posts/govuk-prototype-kit-github-codespaces)
+  - [Making an LLM/AI web app for GOV.UK prototyping](/posts/llm-ai-prototyping)
 
 </section>
 

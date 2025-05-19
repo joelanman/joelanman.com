@@ -89,6 +89,15 @@ pre {
 code {
   background-color: #f8f0ec;
 }
+pre code {
+  display: block;
+  max-width: 38em;
+  margin: 0;
+  padding: 10px;
+  overflow-x: auto;
+  border: 3px solid rgba(0,0,0,0);
+  margin-bottom: 15px;
+}
 
 .post-date {
   color: rgba(0,0,0,0.6)
