@@ -27,22 +27,9 @@ We'll be using a format called JSON (JavaScript Object Notation) for our data.
 
 ### Some JSON basics
 
-**Object**, with name/value pairs
-```
-{
-    "name": "Giulia",
-    "age": 63
-}
-```
- - begins and ends with curly brackets { }
- - the name of each value is in quotes, followed by a colon
- - strings (text values) are in quotes
- - each name/value pair ends in a comma, except the last one
+**Array** (a list)
 
-
-**Array** (a list of things)
-
-```
+```json
 [
     "Apples",
     "Blueberries",
@@ -53,9 +40,22 @@ We'll be using a format called JSON (JavaScript Object Notation) for our data.
 
 Arrays begin and end with square brackets [ ]
 
-You can put objects in arrays, or arrays in objects:
-
+**Object**, with name/value pairs
+```json
+{
+    "name": "Giulia",
+    "age": 63
+}
 ```
+
+ - objects begin and end with curly brackets { }
+ - the name of each value is in quotes, followed by a colon
+ - strings (text values) are in quotes
+ - each name/value pair ends in a comma, except the last one
+
+You can put arrays in objects, or objects in arrays:
+
+```json
 [
     {
         "name": "Giulia",
@@ -112,7 +112,7 @@ module.exports = {
 
 ## 2. Applications list page
 
-In the `app/views` folder create a new file called `applications.html`.
+In the `app/views` folder create a new file called `applications.html`
 
 Add this code:
 

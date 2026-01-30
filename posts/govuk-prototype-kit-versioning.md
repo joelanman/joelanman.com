@@ -24,7 +24,7 @@ Here is one approach to versioning:
 1. In `app/views/layouts` folder create a layout file, for example `v2.html`:
 
 {% raw %}
-```
+```nunjucks
 {% extends "layouts/main.html" %}
 
 {% set bodyClasses = "v2" %}
@@ -37,7 +37,7 @@ Here is one approach to versioning:
 3. Create a page in that folder, for example `test.html`:
 
 {% raw %}
-```
+```nunjucks
 {% extends "layouts/v2.html" %}
 
 {% block content %}
@@ -54,7 +54,7 @@ You can now visit the page `localhost:3000/v2/test` in your browser.
 
 1. In `app/assets/sass` create a `_v2.scss` file:
 
-```
+```scss
 .v2 {
     p {
         color: red;
@@ -66,7 +66,7 @@ Note - the underscore in the filename is important - it means this file is to be
 
 2. In `app/assets/application.scss` add this to the top of the file:
 
-```
+```scss
 @import 'v2.scss';
 ```
 
@@ -78,7 +78,7 @@ The text in your test page should now be red.
 
 2. In `app/routes` create a `v2.js` file:
 
-```
+```javascript
 const govukPrototypeKit = require('govuk-prototype-kit')
 const router = govukPrototypeKit.requests.setupRouter('/v2')
 
@@ -93,15 +93,15 @@ Note that the path in the route is just `/test2` - you don't need to say `/v2/te
 
 However, for `redirect` and `render` you do need to use the version, like this:
 
-```
+```javascript
 response.redirect('/' + version + '/my-page')
 ```
-```
+```javascript
 response.render(version + '/my-page')
 ```
 
 3. In `app/routes.js` add this line:
-```
+```javascript
 require('./routes/v2.js')
 ```
 
@@ -116,7 +116,7 @@ If you visit `localhost:3000/v2/test2` in your browser, it should say 'test2'.
  - In form `action`s and link `href`s, use the `{% raw %}{{ version }}{% endraw %}` variable. For example:
 
  {% raw %}
- ```
+ ```nunjucks
  <a href="/{{ version }}/page-2">Page 2</a>
  ```
  {% endraw %}

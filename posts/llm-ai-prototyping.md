@@ -33,7 +33,7 @@ A few years ago I co-founded the [GOV.UK Prototype Kit](/projects/govuk-prototyp
 
 The kit uses components from the [GOV.UK Design System](https://design-system.service.gov.uk/), however we know from research that it can be tricky to design in code. Some of the components can get quite complex, for example here is the code for some checkboxes:
 
-```
+```nunjucks
 {% raw %}
 {{ govukCheckboxes({
   name: "waste",
