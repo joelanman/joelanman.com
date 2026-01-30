@@ -90,7 +90,6 @@ code {
 
 pre code {
   display: block;
-  max-width: 38em;
   margin: 0;
   padding: 10px;
   overflow-x: auto;
