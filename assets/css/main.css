@@ -25,7 +25,6 @@ a {
   color: #222;
 }
 
-
 section {
   margin-bottom: 2rem;
 }
@@ -67,6 +66,10 @@ img {
   height: auto;
   border: 6px solid #ede5e1;
   margin-bottom: 30px;
+}
+
+p + img {
+  margin-top: 30px;
 }
 
 .home-link {

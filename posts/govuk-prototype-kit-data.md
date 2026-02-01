@@ -1,6 +1,6 @@
 ---
 layout: main.njk
-title: Joe Lanman - GOV.UK Prototype Kit - Working with data
+title: Joe Lanman - GOV.UK Prototype Kit - Data driven prototyping
 ---
 
 Joe Lanman - Designer
@@ -11,7 +11,7 @@ Joe Lanman - Designer
 
 </div>
 
-# GOV.UK Prototype Kit - Working with&nbsp;data
+# GOV.UK Prototype Kit - Data driven&nbsp;prototyping
 
 One of the big advantages of using the GOV.UK Prototype Kit is the ability to use data.
 
@@ -19,7 +19,7 @@ For example take an admin system with a list of items, and a page to view and ed
 
 Using the kit you can define the list as data, and design just the list page and an item page. You can now change the list, add or remove items and all the pages update automatically.
 
-The kit tutorial is about getting a (fictional) [juggling licence](https://prototype-kit.service.gov.uk/docs/make-first-prototype/start). So for this tutorial, let's design the admin side - where we can process the applications for a juggling licence.
+The kit tutorial is about getting a [juggling licence](https://prototype-kit.service.gov.uk/docs/make-first-prototype/start) (I recommend following that before this one). So for this tutorial, let's design the admin side - where we can process the applications for a juggling licence.
 
 ## About JSON
 
@@ -73,7 +73,7 @@ You can put arrays in objects, or objects in arrays:
 Open the session data defaults file:
 
 ```
-/app/data/session-data-defaults.js
+app/data/session-data-defaults.js
 ```
 
 Add our data:
@@ -100,8 +100,8 @@ module.exports = {
     },
     {
         "id" : 3,
-        "date": "4/2/2026",
         "name": "Maeve",
+        "date": "4/2/2026",
         "how-many-balls": "1 or 2",
         "most-impressive-trick": "Upside down"
     }
@@ -109,6 +109,10 @@ module.exports = {
 
 }
 ```
+
+**Important note on changing the default data**
+
+Session data is created from this file and stored when you open the prototype in the browser. If you change the default data, you need to click the 'Clear data' link in the footer to reset it to the new defaults.
 
 ## 2. Applications list page
 
@@ -175,7 +179,7 @@ Your page should look like this:
 
 ## 3. Application view page
 
-In the `app/views` folder create a new file called `application.html`.
+In the `app/views` folder create a new file called `application-view.html`.
 
 Add this code:
 
@@ -198,7 +202,7 @@ Add this code:
   <div class="govuk-grid-column-two-thirds">
 
     <h1 class="govuk-heading-l">
-        {{ application['name']}}
+        {{ application['name'] }}
     </h1>
 
     <dl class="govuk-summary-list">
@@ -234,7 +238,7 @@ If you view the page in the browser, the details will be blank. We need to write
 
 ## 4. Add a route
 
-In `routes.js` add this code:
+In `app/routes.js` add this code:
 
 ```javascript
 // Add your routes here
@@ -249,13 +253,59 @@ router.get('/application/:id', function(request, response) {
     })
 
     response.locals.application = application
-    response.render('application')
+    response.render('application-view')
 
 })
 ```
 
+Let's go through that code.
+
+```javascript
+router.get('/application/:id', function(request, response) {
+
+    var id = request.params.id
+```
+
+We get the id for the application from the path. `:id` means 'store whatever comes here as a parameter.
+
+```javascript
+var data = request.session.data
+```
+
+We store the session data in `data` so it's easier to refer to later.
+
+```javascript
+var application = data.applications.find(function(application){
+    return application.id == id
+})
+```
+
+We get the applications from the session data, and use the `find` function to get the one where the `id` matches the one in the path.
+
+```
+response.locals.application = application
+```
+
+We are making the `application` available to the page, so now lines like this on the page work:
+
+{% raw %}
+```nunjucks
+{{ application['name'] }}
+```
+{% endraw %}
+
+[You can find out more about routes in the kit documentation](https://prototype-kit.service.gov.uk/docs/create-routes)
+
 If you go to the applications list page in the browser and click the links, you should now get a page with details for each application, like this:
 
-<img width="1772" height="9676" src="/assets/images/govuk-prototype-kit-data/application.png" alt="Screenshot showing an application view with the name and other details">
+<img width="1772" height="976" src="/assets/images/govuk-prototype-kit-data/application.png" alt="Screenshot showing an application view with the name and other details">
+
+## Change the data
+
+Make a change to the `session-data-defaults.js` file - for example change a name or add another application, and save the file.
+
+Click the 'Clear data' link in the footer to reset it to the new defaults.
+
+Your changes will now appear on both the list of applications, and the relevant application page.
 
 <div class="post-date">Last updated: 30/1/26</div>
