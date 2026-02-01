@@ -7,11 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-html {
+body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   color: #222;
   font-size: 1.2rem;
   line-height: 1.4;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: inherit;
 }
 
 body {
@@ -81,23 +89,33 @@ p + img {
 }
 
 pre {
+  position: relative;
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #f8f0ec;
-}
-
-code {
-  background-color: #f8f0ec;
+  font-size: 1.1rem;
 }
 
 pre code {
   display: block;
+  background-color: #f8f0ec;
   margin: 0;
-  padding: 10px;
+  padding: 10px 6rem 10px 10px;
   overflow-x: auto;
   border: 3px solid rgba(0,0,0,0);
-  margin-bottom: 15px;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #666;
+  border-radius: 4px;
+  padding: 6px 8px;
+  width: 5rem;
 }
 
 .post-date {

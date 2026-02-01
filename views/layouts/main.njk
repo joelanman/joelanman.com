@@ -1,27 +1,43 @@
 <!doctype html>
 <html class="no-js" lang="en-gb">
-
-<head>
-  <meta charset="utf-8">
-  <title>{{ title }}</title>
-  <meta name="description" content="Designer based in London">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" sizes="16x16 32x32" href="/assets/images/favicon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon-256.png">
-  <link rel="shortcut icon" href="/assets/images/favicon-64.png">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/highlight-github.css">
-  <script defer data-domain="joelanman.com" src="https://plausible.io/js/script.js"></script>
-</head>
-
-<body>
-
-  <main>
-
-    {{ content | safe }}
-
-  </main>
-
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="description" content="Designer based in London">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16 32x32" href="/assets/images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon-256.png">
+    <link rel="shortcut icon" href="/assets/images/favicon-64.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/highlight-github.css">
+    <script defer data-domain="joelanman.com" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body>
+    <main>
+      {{ content | safe }}
+    </main>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('pre code').forEach((codeBlock) => {
+          const pre = codeBlock.parentElement
+          // Create button
+          const button = document.createElement('button')
+          button.className = 'copy-code-button'
+          button.textContent = 'Copy'
+          button.setAttribute('aria-label', 'Copy code to clipboard')
+          // Copy functionality
+          button.addEventListener('click', async () => {
+            await navigator.clipboard.writeText(codeBlock.textContent)
+            button.textContent = 'Copied'
+            button.classList.add('copied')
+            setTimeout(() => {
+              button.textContent = 'Copy'
+              button.classList.remove('copied')
+            }, 2000)
+          })
+          pre.appendChild(button)
+        })
+      })
+    </script>
+  </body>
 </html>
