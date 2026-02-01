@@ -15,9 +15,9 @@ Joe Lanman - Designer
 
 One of the big advantages of using the GOV.UK Prototype Kit is the ability to use data.
 
-For example take an admin system with a list of items, and a page to view and edit each item. In traditional prototyping apps, you might have to create a page for each item, and update both the list and the page separately if you want to change something.
+For example take an admin system with a list of items and a page to view and edit each item. In traditional prototyping apps, you might have to create a page for each item, and update both the list and the page separately if you want to change something.
 
-Using the kit you can define the list as data, and design just the list page and an item page. You can now change the list, add or remove items and all the pages update automatically.
+Using the kit you can define the list as data, and design just the list page and the item page. You can now change the list, add or remove items and all the pages update automatically.
 
 The kit tutorial is about getting a [juggling licence](https://prototype-kit.service.gov.uk/docs/make-first-prototype/start) (I recommend following that before this one). So for this tutorial, let's design the admin side - where we can process the applications for a juggling licence.
 
@@ -25,7 +25,7 @@ The kit tutorial is about getting a [juggling licence](https://prototype-kit.ser
 
 We'll be using a format called JSON (JavaScript Object Notation) for our data.
 
-### Some JSON basics
+Some JSON basics:
 
 **Array** (a list)
 
@@ -96,7 +96,7 @@ module.exports = {
         "name": "Rhian",
         "date": "2/2/2026",
         "how-many-balls": "3 or more",
-        "most-impressive-trick": "Juggling live ferrets"
+        "most-impressive-trick": "Juggling chainsaws"
     },
     {
         "id" : 3,
@@ -152,13 +152,13 @@ Add this code:
           <tr>
 
             <th scope="row" class="govuk-table__header">
-                <a href="/application/{{ application['id'] }}">
+                <a href="/applications/{{ application['id'] }}">
                     {{ application['name'] }}
                 </a>
             </th>
 
             <td class="govuk-table__cell">
-              {{ application['date']}}
+              {{ application['date'] }}
             </td>
 
           </tr>
@@ -173,7 +173,11 @@ Add this code:
 ```
 {% endraw %}
 
-Your page should look like this:
+Open the applications page in the browser:
+
+[http://localhost:3000/applications](http://localhost:3000/applications)
+
+It should look like this:
 
 <img width="1770" height="960" src="/assets/images/govuk-prototype-kit-data/applications.png" alt="Screenshot showing a table with 3 applications">
 
@@ -243,7 +247,7 @@ In `app/routes.js` add this code:
 ```javascript
 // Add your routes here
 
-router.get('/application/:id', function(request, response) {
+router.get('/applications/:id', function(request, response) {
 
     var id = request.params.id
     var data = request.session.data
@@ -296,7 +300,7 @@ We are making the `application` available to the page, so now lines like this on
 
 [You can find out more about routes in the kit documentation](https://prototype-kit.service.gov.uk/docs/create-routes)
 
-If you go to the applications list page in the browser and click the links, you should now get a page with details for each application, like this:
+If you go to the [applications list page](http://localhost:3000/applications) in the browser and click the links, you should now get a page with details for each application, like this:
 
 <img width="1772" height="976" src="/assets/images/govuk-prototype-kit-data/application.png" alt="Screenshot showing an application view with the name and other details">
 
