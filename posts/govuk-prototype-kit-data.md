@@ -1,6 +1,7 @@
 ---
 layout: main.njk
 title: Joe Lanman - GOV.UK Prototype Kit - Data driven prototyping
+image: /assets/images/govuk-prototype-kit-data/applications.png
 ---
 
 Joe Lanman - Designer
@@ -15,7 +16,7 @@ Joe Lanman - Designer
 
 One of the big advantages of using the GOV.UK Prototype Kit is the ability to use data.
 
-For example take an admin system with a list of items and a page to view and edit each item. In traditional prototyping apps, you might have to create a page for each item, and update both the list and the page separately if you want to change something.
+For example take an admin system with a list of items and a page to view and edit each item. In other prototyping apps you might have to create a page for each item, and update both the list and the page separately if you want to change something.
 
 Using the kit you can define the list as data, and design just the list page and the item page. You can now change the list, add or remove items and all the pages update automatically.
 

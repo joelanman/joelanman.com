@@ -10,6 +10,13 @@
     <link rel="shortcut icon" href="/assets/images/favicon-64.png">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/highlight-github.css">
+    <meta property="og:title" content="{{ title }}">
+    {% if description %}
+      <meta property="og:description" content="{{ description }}">
+    {% endif %}
+    {% if image %}
+      <meta property="og:image" content="https://joelanman.com{{ image }}">
+    {% endif %}
     <script defer data-domain="joelanman.com" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>
