@@ -32,10 +32,10 @@ Some JSON basics:
 
 ```json
 [
-    "Apples",
-    "Blueberries",
-    "Pears",
-    "Strawberries"
+  "Apples",
+  "Blueberries",
+  "Pears",
+  "Strawberries"
 ]
 ```
 
@@ -44,8 +44,8 @@ Arrays begin and end with square brackets [ ]
 **Object**, with name/value pairs
 ```json
 {
-    "name": "Giulia",
-    "age": 63
+  "name": "Giulia",
+  "age": 63
 }
 ```
 
@@ -58,14 +58,14 @@ You can put arrays in objects, or objects in arrays:
 
 ```json
 [
-    {
-        "name": "Giulia",
-        "age": 63
-    },
-    {
-        "name": "Rhian",
-        "age": 22
-    }
+  {
+    "name": "Giulia",
+    "age": 63
+  },
+  {
+    "name": "Rhian",
+    "age": 22
+  }
 ]
 ```
 
@@ -86,25 +86,25 @@ module.exports = {
 
   "applications": [
     {
-        "id" : 1,
-        "name": "Giulia",
-        "date": "1/2/2026",
-        "how-many-balls": "1 or 2",
-        "most-impressive-trick": "Juggling on a unicycle"
+      "id" : 1,
+      "name": "Giulia",
+      "date": "1/2/2026",
+      "how-many-balls": "1 or 2",
+      "most-impressive-trick": "Juggling on a unicycle"
     },
     {
-        "id" : 2,
-        "name": "Rhian",
-        "date": "2/2/2026",
-        "how-many-balls": "3 or more",
-        "most-impressive-trick": "Juggling chainsaws"
+      "id" : 2,
+      "name": "Rhian",
+      "date": "2/2/2026",
+      "how-many-balls": "3 or more",
+      "most-impressive-trick": "Juggling chainsaws"
     },
     {
-        "id" : 3,
-        "name": "Maeve",
-        "date": "4/2/2026",
-        "how-many-balls": "1 or 2",
-        "most-impressive-trick": "Upside down"
+      "id" : 3,
+      "name": "Maeve",
+      "date": "4/2/2026",
+      "how-many-balls": "1 or 2",
+      "most-impressive-trick": "Upside down"
     }
   ]
 
@@ -129,46 +129,46 @@ Add this code:
 
 {% block content %}
 
-    <h1 class="govuk-heading-l">
-        Juggling licence applications
-    </h1>
+  <h1 class="govuk-heading-l">
+    Juggling licence applications
+  </h1>
 
-    <table class="govuk-table">
+  <table class="govuk-table">
 
-      <thead>
+    <thead>
+      <tr>
+        <th scope="col" class="govuk-table__header">
+          Name
+        </th>
+        <th scope="col" class="govuk-table__header">
+          Date sent
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      {% for application in data['applications'] %}
+
         <tr>
-          <th scope="col" class="govuk-table__header">
-            Name
+
+          <th scope="row" class="govuk-table__header">
+              <a href="/applications/{{ application['id'] }}">
+                {{ application['name'] }}
+              </a>
           </th>
-          <th scope="col" class="govuk-table__header">
-            Date sent
-          </th>
+
+          <td class="govuk-table__cell">
+            {{ application['date'] }}
+          </td>
+
         </tr>
-      </thead>
 
-      <tbody>
+      {% endfor %}
 
-        {% for application in data['applications'] %}
+    </tbody>
 
-          <tr>
-
-            <th scope="row" class="govuk-table__header">
-                <a href="/applications/{{ application['id'] }}">
-                    {{ application['name'] }}
-                </a>
-            </th>
-
-            <td class="govuk-table__cell">
-              {{ application['date'] }}
-            </td>
-
-          </tr>
-
-        {% endfor %}
-
-      </tbody>
-
-    </table>
+  </table>
 
 {% endblock %}
 ```
@@ -207,29 +207,29 @@ Add this code:
   <div class="govuk-grid-column-two-thirds">
 
     <h1 class="govuk-heading-l">
-        {{ application['name'] }}
+      {{ application['name'] }}
     </h1>
 
     <dl class="govuk-summary-list">
 
-        <div class="govuk-summary-list__row">
-            <dt class="govuk-summary-list__key">
-                How many balls can you juggle?
-            </dt>
-            <dd class="govuk-summary-list__value">
-                {{ application['how-many-balls'] }}
-            </dd>
-        </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          How many balls can you juggle?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          {{ application['how-many-balls'] }}
+        </dd>
+      </div>
 
-        <div class="govuk-summary-list__row">
-            <dt class="govuk-summary-list__key">
-                Most impressive juggling trick?
-            </dt>
-            <dd class="govuk-summary-list__value">
-                {{ application['most-impressive-trick'] }}
-            </dd>
-        </div>
-        
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Most impressive juggling trick?
+        </dt>
+        <dd class="govuk-summary-list__value">
+          {{ application['most-impressive-trick'] }}
+        </dd>
+      </div>
+      
     </dl>
 
   </div>
@@ -250,15 +250,15 @@ In `app/routes.js` add this code:
 
 router.get('/applications/:id', function(request, response) {
 
-    var id = request.params.id
-    var data = request.session.data
+  var id = request.params.id
+  var data = request.session.data
 
-    var application = data.applications.find(function(application){
-        return application.id == id
-    })
+  var application = data.applications.find(function(application){
+    return application.id == id
+  })
 
-    response.locals.application = application
-    response.render('application-view')
+  response.locals.application = application
+  response.render('application-view')
 
 })
 ```
@@ -268,7 +268,7 @@ Let's go through that code.
 ```javascript
 router.get('/application/:id', function(request, response) {
 
-    var id = request.params.id
+  var id = request.params.id
 ```
 
 We get the id for the application from the path. `:id` means 'store whatever comes here as a parameter'.
@@ -281,7 +281,7 @@ We store the session data in `data` so it's easier to refer to later.
 
 ```javascript
 var application = data.applications.find(function(application){
-    return application.id == id
+  return application.id == id
 })
 ```
 
