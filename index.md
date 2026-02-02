@@ -82,6 +82,7 @@ title: Joe Lanman - Designer
   - [GOV.UK Prototype Kit - Versioning your prototype](/posts/govuk-prototype-kit-versioning)
   - [Using the GOV.UK Prototype Kit with GitHub Codespaces](/posts/govuk-prototype-kit-github-codespaces)
   - [Making an LLM/AI web app for GOV.UK prototyping](/posts/llm-ai-prototyping)
+  - [GOV.UK Prototype Kit - Data driven prototyping](/posts/govuk-prototype-kit-data)
 
 </section>
 

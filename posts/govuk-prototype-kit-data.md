@@ -271,7 +271,7 @@ router.get('/application/:id', function(request, response) {
     var id = request.params.id
 ```
 
-We get the id for the application from the path. `:id` means 'store whatever comes here as a parameter.
+We get the id for the application from the path. `:id` means 'store whatever comes here as a parameter'.
 
 ```javascript
 var data = request.session.data
