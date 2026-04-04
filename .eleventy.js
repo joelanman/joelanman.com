@@ -22,6 +22,7 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.setLibrary("md", markdownLib)
 
 	eleventyConfig.addPassthroughCopy("assets")
+	eleventyConfig.addPassthroughCopy(".well-known")
   
 	return {
 		dir: {
