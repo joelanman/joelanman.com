@@ -10,10 +10,10 @@ module.exports = (eleventyConfig) => {
 	}
 
 	const highlightOptions = {
-    auto: false,
-    register: {
-      'nunjucks': highlightNunjucks
-    }
+		auto: false,
+		register: {
+			'nunjucks': highlightNunjucks
+		}
 	}
 
 	const markdownLib = markdownIt(mdOptions).use(markdownItHighlightjs, highlightOptions)
