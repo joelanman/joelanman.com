@@ -266,7 +266,7 @@ router.get('/applications/:id', function(request, response) {
 Let's go through that code.
 
 ```javascript
-router.get('/application/:id', function(request, response) {
+router.get('/applications/:id', function(request, response) {
 
   var id = request.params.id
 ```
