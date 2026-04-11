@@ -17,7 +17,7 @@ Mission patches celebrate team achievements.
 
 <div class="mission-patches">
   <div class="mission-patch">
-    <img class="transition" width="368" height="320" src="/assets/images/mission-patches/transition-2.svg" alt="Transition tool 2014 - A tarantula on a hot red background crawling off the edges of the patch">
+    <img class="transition" width="368" height="320" src="/assets/images/mission-patches/transition-3.svg" alt="Transition tool 2014 - A tarantula on a hot red background crawling off the edges of the patch">
   </div>
   <div class="mission-patch">
     <img style="border-radius: 100%;" width="320" height="320" src="/assets/images/mission-patches/cookies.jpg" alt="GOV.UK Cookies July 2019 - a teddy bear cookie with chocolate icing face on a checked blue and white tablecloth">
