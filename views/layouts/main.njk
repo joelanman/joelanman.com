@@ -8,6 +8,19 @@
     <link rel="icon" type="image/png" sizes="16x16 32x32" href="/assets/images/favicon-32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon-256.png">
     <link rel="shortcut icon" href="/assets/images/favicon-64.png">
+    
+    <!-- Preconnect to own origin for CSS resources -->
+    <link rel="preconnect" href="/">
+    <link rel="dns-prefetch" href="/">
+    
+    <!-- Preconnect to external analytics domain -->
+    <link rel="preconnect" href="https://plausible.io">
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="/assets/css/main.css" as="style">
+    <link rel="preload" href="/assets/css/highlight-github.css" as="style">
+    
+    <!-- Load CSS asynchronously to prevent render blocking -->
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/highlight-github.css">
     <meta property="og:title" content="{{ title }}">
