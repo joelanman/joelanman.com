@@ -13,13 +13,11 @@ Joe Lanman - Designer
 
 # Coronavirus Extremely Vulnerable People
 
-<img width="1704" height="760" src="/assets/images/coronavirus-extremely-vulnerable-people.webp" alt="Part of a service map. Shows a journey starting with the NHS sending letters to vulnerale people, then people coming to the GDS web service, where they are asked if they are eligible, which makes the journey branch.">
-
-_Please note this was a sensitive service, I may be able to share more detail directly._
+<img width="1704" height="760" src="/assets/images/coronavirus-extremely-vulnerable-people.webp" alt="Part of a service map. Shows a journey starting with the NHS sending letters to vulnerable people, then people coming to the GDS web service, where they are asked if they are eligible, which makes the journey branch.">
 
 In 2020 the UK entered its first Coronavirus lockdown. It was a scary and distressing time - many people were dying and many more seriously ill.
 
-In this uncertain context and with a sudden switch to all-remote working, the civil service rapidly developed services to try and help.
+In this uncertain context and with a sudden switch to all-remote working, the civil service rapidly developed services to help.
 
 People who were particularly medically vulnerable to the virus (for example having a weakened immune system) were told to avoid going out at all. GDS, with other departments and the NHS, created a service to support them.
 
