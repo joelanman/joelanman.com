@@ -137,8 +137,6 @@ pre code {
 
 .mission-patches img {
   position: relative;
-  max-width: initial;
-  max-height: 100%;
   margin: 0;
   border: none;
   grid-column: auto;
@@ -192,7 +190,8 @@ pre code {
     width: 320px;
   }
 
-  .mission-patches img.transition {
-
+  .mission-patch img {
+    max-width: initial;
+    max-height: 100%;
   }
 }
