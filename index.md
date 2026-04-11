@@ -51,14 +51,13 @@ title: Joe Lanman - Designer
 <section>
 
   ## Work
-
-  Design lead in a multidisciplinary team on
-  
+ 
   - [GOV.UK Prototype Kit](/projects/govuk-prototype-kit/)
   - [GovWifi](/projects/govwifi/)
   - [Coronavirus Extremely Vulnerable People Service](/projects/coronavirus-extremely-vulnerable-people/)
   - [Register to vote](/projects/register-to-vote/)
   - [Petition Parliament](/projects/petition-parliament/)
+  - [Mission patches](/mission-patches)
 
 </section>
 
